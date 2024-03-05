@@ -1,0 +1,103 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+  body: {
+    // backgroundColor: "transparent",
+    // backgroundColor: "#212122",
+    backgroundColor: "#101820ff",
+
+    height: "100%",
+  },
+  header: {
+    // backgroundColor: "blue",
+    height: "30%",
+  },
+  heading: {
+    fontWeight: "bold",
+    fontSize: 28,
+    paddingTop: "25%",
+    paddingLeft: "5%",
+    color: "white",
+    fontStyle: "italic",
+  },
+  navbartextcontainer: {
+    // backgroundColor: "#804012",
+    height: "60%",
+    width: "20%",
+    left: "0%",
+    top: "",
+    borderStyle: "solid",
+    borderRightWidth: 2,
+    borderRightColor: "white",
+  },
+  navbarbtn: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "white",
+    margin: 20,
+    marginTop: 50,
+    marginLeft: -5,
+    marginRight: 10,
+    height: 50,
+    width: 100,
+    transform: [{ rotate: "270deg" }],
+
+    borderRadius: 25,
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 10,
+    paddingLeft: 20,
+  },
+  active: {
+    backgroundColor: "#101820ff",
+    backgroundColor: "#f2aa4cff",
+  },
+  carddivparent: {},
+  carddiv: {
+    position: "absolute",
+    // backgroundColor: "green",
+    height: "80%",
+    width: "80%",
+    left: "20%",
+    // bottom: "80%",
+    top: "27%",
+  },
+  scrollView: {
+    // backgroundColor: "pink",
+    alignItems: "center",
+    justifyContent: "center",
+    // paddingVertical: 20,
+    paddingTop: 50,
+    paddingBottom: 150,
+  },
+  cards: {
+    padding: 10,
+    // paddingLeft: 30,
+    width: "60%",
+    width: 200,
+    height: "25%",
+    height: 350,
+    backgroundColor: "#1B1B1B",
+    backgroundColor: "#212122",
+    marginTop: 20,
+    color: "white",
+    // borderWidth: 2,
+    borderRadius: 30,
+  },
+  cardsimage: {
+    width: 130,
+    height: 130,
+  },
+  cardbtn: {
+    color: "white",
+    width: 100,
+    height: 30,
+    borderRadius: 10,
+    padding: 5,
+    paddingLeft: 10,
+    // backgroundColor: "blue",
+    backgroundColor: "#b2d8d8",
+  },
+});
+
+export default styles;
